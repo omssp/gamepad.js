@@ -4,9 +4,10 @@
   "version": "0.0.5-alpha",
   "main": "gamepad.js",
   "devDependencies": {
-    "jslint": "0.10.3"
+    "@neogeek/eslint-config-standards": "^2.0.0",
+    "eslint": "^4.2.0"
   },
   "scripts": {
-    "test": "jslint gamepad.js"
+    "test": "eslint gamepad.js"
   }
 }
