@@ -1,0 +1,8 @@
+{
+  "extends": ["@neogeek/eslint-config-standards"],
+  "rules": {
+    "sort-imports": 0,
+    "sort-keys": 0,
+    "no-magic-numbers": 0
+  }
+}
