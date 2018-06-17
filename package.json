@@ -3,11 +3,16 @@
   "description": "Simple customizable event binding for the HTML Gamepad API.",
   "version": "0.0.5-alpha",
   "main": "gamepad.js",
+  "dependencies": {
+    "rxjs": "6.2.1"
+  },
   "devDependencies": {
     "@neogeek/eslint-config-standards": "2.0.0",
     "babel-eslint": "8.2.3",
-    "eslint": "4.19.1"
+    "eslint": "4.19.1",
+    "spire-of-babel": "1.4.0"
   },
   "scripts": {
+    "build": "mkdir -p dist && spire-of-babel lib/gamepad.js --bundle --output dist/gamepad.min.js"
   }
 }
